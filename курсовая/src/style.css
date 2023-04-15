@@ -1,0 +1,69 @@
+body {
+margin: auto;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+background-color:#e5d7f0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #6495ED;
+  box-shadow: 0 0 3px 4px #5983cf;
+}
+.btn {
+  width: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.btn:hover {
+  background-color: #f3cf91;
+}
+.modal_btn {
+  background-color: #FFE4B5;
+  border-radius: 2rem;
+  margin: auto;
+  padding: 1rem 1rem;
+  height: 2rem;
+  transition: all .1s ease-in; 
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+}
+main {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  background-color: #FFE5B4;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 90%;
+  margin:  auto;
+}
+.card_book{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  text-align: center;
+}
+.img_main{
+  width: 150px;
+  height: 250px;
+}
+.header_logo {
+  font-size: 50px;
+  margin-left: 550px;
+}
